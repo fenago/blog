@@ -1,0 +1,183 @@
+CATEGORY Data Science
+Algorithms of the Intelligent Web
+Data Science Algorithms in a Week
+Jupyter for Data Science
+Machine Learning with R Cookbook	11
+Machine Learning Cookbook	15
+Beginning Data Science with Python and Jupyter	17
+Practical Data Science Cookbook	18
+Java for Data Science	21
+Python Social Media Analytics	23
+Learning Social Media Analytics with R	25
+Python for Finance	27
+Real-time Data Processing and Analytics	30
+Apache Spark 2.x Machine Learning Cookbook	32
+Python Machine Learning Cookbook	36
+TensorFlow Machine Learning Cookbook	40
+R Machine Learning Projects	42
+Large Scale Machine Learning with Python	44
+Exploratory Analysis with pandas	46
+Integrating Hadoop	48
+Machine Learning Solutions	50
+Turning Text into Gold: Taxonomies and Textual Analytics	53
+Keras 2.x Projects	55
+Ensemble Machine Learning Cookbook	57
+Intelligent Mobile Projects with TensorFlow	59
+Jupyter Cookbook	62
+Machine Learning for Algorithmic Trading	64
+Machine Learning with the Elastic Stack	67
+Python Machine Learning Blueprints	69
+Machine Learning for Mobile	71
+Data Analysis and Business Modeling with Excel 2013	73
+Build a Career in Data Science	75
+Data Science Boot camp	77
+Healthcare Analytics Made Simple	80
+Machine Learning for Healthcare Analytics Projects	82
+Machine Learning for Finance	84
+Go Machine Learning Projects	87
+Machine Learning Projects for Mobile Applications	89
+IoT Solutions with Blockchain	91
+Music Generation with Magenta	93
+Practical Recommender Systems	95
+Recommendation Systems with Python	98
+Natural Language Processing	100
+Relevant Search	102
+Think Like a Data Scientist	104
+Real-World Machine Learning.	106
+TensorFlow Machine Learning Projects	108
+Machine Learning to Detect Phishing Websites	111
+Monitoring Changes in Surface Water Using Satellite Image Data	113
+Human Pose Estimation with Deep Neural Networks	115
+Discovering Disease Outbreaks from News Headlines	117
+Decoding Data Science Job Postings to Improve Your Resume	119
+Practical Data Science with R	121
+Building Domain Specific Language Models	123
+3D Medical Image Analysis with PyTorch	125
+Growth Hacking with NLP and Sentiment Analysis	127
+Collective Intelligence	129
+Scikit-learn Cookbook	131
+Building Machine Learning Systems with Python	134
+SAS for Finance	136
+CATEGORY Programming	138
+R	138
+CATEGORY Artificial Intelligence	140
+Mahout	140
+Machine Learning on AWS	143
+Machine Learning for Developers	146
+Machine Learning with IBM Watson	148
+Scala for Machine Learning	150
+Deep-Learning-for-Natural-Language-Processing	153
+Ensemble Learning with R	155
+Machine Learning with scikit-learn	157
+Machine Learning for OpenCV	159
+Machine Learning for the Web	161
+Java Machine Learning	163
+Predictive Analytics with R	165
+Statistical Application Development with R and Python	167
+Learn Unity ML-Agents	169
+TensorFlow 2.0	171
+Deep Learning for Vision Systems	173
+Deep Learning with PyTorch	175
+Training Systems using Python Statistical Modeling	177
+Deep Reinforcement Learning	179
+Applied Unsupervised Learning with R	181
+Essential Natural Language Processing	183
+GANs	185
+Machine Learning with Apache Spark	187
+Machine Learning with Core ML	189
+Python Machine Learning By Example	191
+Bayesian Analysis with Python	194
+Machine Learning for Data Mining	196
+Machine Learning With Go	198
+Machine Learning with R	200
+Machine Learning with Scala	202
+Q-Learning with Python	204
+C# Machine Learning Projects	206
+Machine Learning with C#	208
+Machine Learning with Microsoft Excel 2019	210
+Machine Learning with JavaScript	212
+Ensemble Learning with Python	214
+Machine Learning Fundamentals	216
+Machine Learning in Java	218
+What's New in TensorFlow 2.0	220
+Blockchain Development for Finance Projects	222
+Machine Learning Bootcamp	225
+Machine Learning with scikit-learn	227
+Time Series Analysis with R	229
+Unsupervised Learning with Python	231
+Applied Unsupervised Learning with Python	233
+Machine Learning.	235
+Machine Learning Overview.	237
+Applied Supervised Learning with R.	239
+Machine Learning with TensorFlow.js.	242
+Python Machine Learning.	244
+Machine Learning Algorithms.	247
+One-shot Learning with Python	250
+Machine Learning with Go	252
+Applied SQL Data Analytics	254
+Supervised Learning	256
+Supervised Machine Learning with Python	258
+Machine Learning with C++.	260
+Natural Language Processing for Hackers	263
+Machine Learning with ML.NET.	265
+Machine Learning with TensorFlow	267
+Zero to AI	269
+Deep Learning with R	271
+Deep Learning with Python	273
+Machine Learning.	275
+CATEGORY Data Analysis / BI	278
+Tika	278
+Pandas	279
+Learning pandas	282
+Data Analysis with NumPy and Pandas	285
+Turning Spreadsheets into Corporate Data	287
+Learning Jupyter 5	289
+Data Wrangling with Python	291
+Practical Data Wrangling	293
+Python Data Structures and Algorithms	295
+Data Analysis with Python	297
+Go Web Scraping	299
+Feature Engineering Made Easy	301
+Data Analysis with Scala	303
+Learning Alteryx	305
+Haskell Data Analysis	307
+Python Feature Engineering Cookbook	309
+SciPy Recipes	312
+Exploratory Data Analysis with Python	315
+SAS for Data Analysis	317
+R Data Analysis Projects	319
+Data Analysis with Pandas	321
+Exploratory Data Analysis with R	323
+Data Analysis with R	325
+Exploring the Data Jungle	328
+Visualizing Graph Data	329
+Taming Text	331
+D3.js	333
+Web Scraping with Python	335
+CATEGORY Big Data	337
+Redis.	337
+Machine Learning with Spark 2.x	338
+Solr.	341
+Hadoop in Practice	343
+Apache Hadoop 3	345
+Apache Hive Essentials	347
+Storm Applied.	349
+Big Data	351
+Apache Spark	353
+Building Data Streaming Applications with Apache Kafka	355
+Spark GraphX.	358
+Streaming Data	360
+CATEGORY DevOps	362
+Elasticsearch	362
+AI as a Service	364
+Introduction to DevOps with Kubernetes	366
+Automated Machine Learning	368
+Real-World Cryptography	370
+CATEGORY Cloud	372
+Machine Learning with Azure	372
+Cloud Analytics with Microsoft Azure	374
+Machine Learning on Google Cloud Platform	376
+Machine Learning with AWS	378
+CATEGORY CyberSecurity	380
+Machine Learning for Cybersecurity	380
+Applied Dark Web Analysis	382
