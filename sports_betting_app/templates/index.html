@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernesto.Net: Course Recommender</title>
+    <style>
+        html {
+          height: 100%;
+        }
+        body {
+          margin:0;
+          padding:0;
+          font-family: sans-serif;
+          background: linear-gradient(#141e30, #243b55);
+        }
+
+        th, td {
+            padding: 10px;
+        }
+
+        .login-box {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          margin-top: 5%;
+          padding: 40px;
+          transform: translate(-50%, -50%);
+          background: rgba(0,0,0,.5);
+          box-sizing: border-box;
+          box-shadow: 0 15px 25px rgba(0,0,0,.6);
+          border-radius: 10px;
+          width: 70%;
+        }
+
+        .login-box h2 {
+          margin: 0 0 30px;
+          padding: 0;
+          color: #fff;
+          text-align: center;
+        }
+
+        .login-box .user-box {
+          position: relative;
+        }
+
+        .login-box .user-box input {
+          width: 100%;
+          padding: 10px 0;
+          font-size: 16px;
+          color: #fff;
+          margin-bottom: 30px;
+          border: none;
+          border-bottom: 1px solid #fff;
+          outline: none;
+          background: transparent;
+        }
+        .login-box .user-box label {
+          position: absolute;
+          top:0;
+          left: 0;
+          padding: 10px 0;
+          font-size: 16px;
+          color: #fff;
+          pointer-events: none;
+          transition: .5s;
+        }
+
+        .login-box .user-box input:focus ~ label,
+        .login-box .user-box input:valid ~ label {
+          top: -20px;
+          left: 0;
+          color: #03e9f4;
+          font-size: 12px;
+        }
+
+        a {
+          background-color: #0AE9F4;
+          width: 200px;
+          height:50px;
+          margin:0px 40px ;
+          color: black;
+          outline: none;
+          border:none;
+          transition: 0.6s;
+          font-size: 1.5rem;
+          padding: 10px;
+          margin-left:8%;
+        }
+
+        a:hover{
+            background-color:  #9df6fb;
+            color:black;
+            box-shadow: 3px 3px 30px #9df6fb;
+            outline: none;
+            border:none;
+        }
+        #logo{
+            margin:auto;
+            width:50%;
+            position: absolute;
+            left: 42%;
+            top: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div id= "logo">
+        <img src="https://ernesto.net/wp-content/uploads/2020/11/ernesto-logo-205x46-1.png">
+    </div>
+    <div class="login-box" style="color: white;">
+        {% if surebets %}
+        <p>Here are the Surebets:</p>
+        <table border='1'>
+            <thead>
+                <th>Teams</th>
+                <th>Odds 1</th>
+                <th>Odds 2</th>
+                <th>Stake 1</th>
+                <th>Stake 2</th>
+                <th>Profit 1</th>
+                <th>Profit 2</th>
+                <th>Benefit 1</th>
+                <th>Benefit 2</th>
+            </thead>
+          {% for surebet in surebets %}
+            <tr>
+                <td>{{ surebet.Teams }}</td>
+                <td>{{ surebet.Odds1 }}</td>
+                <td>{{ surebet.Odds2 }}</td>
+                <td>{{ surebet.Stake1 }}</td>
+                <td>{{ surebet.Stake2 }}</td>
+                <td>{{ surebet.Profit1 }}</td>
+                <td>{{ surebet.Profit2 }}</td>
+                <td>{{ surebet.Benefit1 }}</td>
+                <td>{{ surebet.Benefit2 }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+        {% else %}
+        <h2>Ernesto.Net: Surebets Finder</h2>
+
+        <a href="{{ url_for('scrape_bwin') }}">Scrape Bwin</a> 
+        <a href="{{ url_for('scrape_betfair') }}">Scrape Betfair</a> 
+        <a href="{{ url_for('calc_surebets') }}">Calculate Surebet</a> 
+      </div>
+      {% endif %}
+</body>
+</html>
