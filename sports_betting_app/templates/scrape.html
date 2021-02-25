@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ernesto.Net: Course Recommender</title>
+    <style>
+        html {
+  height: 100%;
+}
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#141e30, #243b55);
+}
+
+th, td {
+    padding: 10px;
+}
+
+.login-box {
+  position: absolute;
+  top: 1000px;
+  left: 50%;
+  margin-top: 5%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+input[type=submit]{
+background-color: #0AE9F4;
+width: 200px;
+height:50px;
+margin:0px 40px ;
+color: white;
+outline: none;
+border:none;
+transition: 0.6s;
+font-size: 1.5rem;
+}
+
+input[type=submit]:hover{
+    background-color:  #9df6fb;
+    color:black;
+    box-shadow: 3px 3px 30px #9df6fb;
+    outline: none;
+    border:none;
+}
+#logo{
+    margin:auto;
+    width:50%;
+    position: absolute;
+    left: 42%;
+    top: 10%;
+}
+</style>
+</head>
+<body>
+    <div id= "logo">
+        <img src="https://ernesto.net/wp-content/uploads/2020/11/ernesto-logo-205x46-1.png">
+    </div>
+    <div class="login-box" style="color: white;">
+        {% if odds %}
+        <p>Here are the Scraped Odds from {{ website }}:</p>
+        <table border='1'>
+            <thead>
+                <th>Team</th>
+                <th>Odds</th>
+            </thead>
+          {% for record in odds: %}
+            <tr>
+                <td>{{ record.Team }}</td>
+                <td>{{ record.Odds }}</td>
+            </tr>
+          {% endfor %}
+        </table>
+        {% else %}
+        <h2>No records found</h2>
+      </div>
+      {% endif %}
+</body>
+</html>
